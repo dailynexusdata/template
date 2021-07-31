@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 require('dotenv').config();
 
 const config = {
@@ -9,8 +10,8 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: process.env.NAME,
-      filename: 'index.html',
+      name: process.env.NAME,
+      filename: '../index.html',
       template: 'src/plots/index.ejs',
     }),
   ],
