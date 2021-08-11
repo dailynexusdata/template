@@ -1,3 +1,12 @@
 package-lock.json
 node_Modules
 out
+.keep
+iv2020 *
+iv2020
+sb2020*
+src/data/iv*
+PL2020*
+*.zip
+ca0000*
+cageo2010.pl
