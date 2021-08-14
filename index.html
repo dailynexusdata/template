@@ -8,12 +8,69 @@
         <title>
             
         </title>
+        <style>
+            html {
+                font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif;
+            }
+
+            body {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                /* as in the website */
+            }
+
+            article {
+                padding: 0 20px;
+            }
+
+            main {
+                width: 700px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            @media (max-width: 700px) {
+                article {
+                    width: 100%;
+                }
+
+                main {
+                    width: 100%;
+                }
+            }
+
+            main>div {
+                align-self: center;
+            }
+
+            hr {
+                border: none;
+                border-top: 2px solid #d3d3d3;
+                width: 100%;
+            }
+
+            a,
+            a:hover,
+            a:link {
+                text-decoration: none;
+                color: black;
+                margin: 5px 0;
+            }
+        </style>
     <script defer src="dist/undefined-bundle.js"></script></head>
 
-    <body style='width: 100%; display: flex; justify-content: center; margin: 0;'>
-        <main style='width: 700px'>
-            <div id="census-cbgs2020"></div>
-        </main>
+    <body>
+        <article>
+            <main>
+                <h1>Title</h1>
+                <div id="census-cbgs2020"></div>
+            </main>
+            <hr />
+            <a href="https://dailynexus.com/category/labyrinth/">The Daily Nexus Labyrinth</a>
+        </article>
     </body>
 
 </html>
