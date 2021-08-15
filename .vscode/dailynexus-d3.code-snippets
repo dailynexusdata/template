@@ -8,7 +8,7 @@
 	// Example:
 	"D3 Size Object": {
 		"scope": "javascript",
-		"prefix": "const size",
+		"prefix": "const size = ",
 		"body": [
 			"const size = {",
 			"  height: 400,",
@@ -21,7 +21,7 @@
 	},
 	"D3 Margin Default Object": {
 		"scope": "javascript",
-		"prefix": "const margin",
+		"prefix": "const margin = ",
 		"body": [
 			"const margin = {",
 			"  top: 10,",
@@ -36,7 +36,7 @@
 	},
 	"D3 Svg Object": {
 		"scope": "javascript",
-		"prefix": "const svg",
+		"prefix": "const svg = ",
 		"body": [
 			"const svg = container",
 			"  .append('svg')",
@@ -76,7 +76,7 @@
 	},
 	"D3 Stack Object": {
 		"scope": "javascript",
-		"prefix": "d3.stack",
+		"prefix": "d3.stack()",
 		"body": [
 			"d3",
 			"  .stack()",
@@ -92,27 +92,27 @@
 		"prefix": "start",
 		"body": [
 			"/**",
-			" * $1",
+			" * ${1:File Description}",
 			" *",
-			" * @author $2",
+			" * @author ${2:Name}",
 			" *",
 			" */",
 			"import * as d3 from 'd3';",
 			"",
 			"/**",
-			" * @param {*} data - $3",
+			" * @param {*} data - ${3:What is the data?}",
 			" *",
-			" * @author $2",
+			" * @author ${2:Name}",
 			" *",
-			" * @since $4",
+			" * @since ${4:Date}",
 			" */",
 			"const makePlot = (data) => {",
 			"  /*",
 			"    Container Setup:",
 			"  */",
 			"",
-			"  // The Class is necessary to apply styling",
-			"  const container = d3.select('#$5').attr('class', 'myclass');",
+			"  // The class is necessary to apply styling",
+			"  const container = d3.select('#${5:div-id}').attr('class', 'myclass');",
 			"",
 			"  // When the resize event is called, reset the plot",
 			"  container.selectAll('*').remove();",
@@ -139,7 +139,7 @@
 			"  container",
 			"    .append('a')",
 			"    .text('Source: __________')",
-			"    .attr('href', 'https://www.https://dailynexus.com/category/labyrinth/');",
+			"    .attr('href', '');",
 			"",
 			"  /*",
 			"    Create Scales:",

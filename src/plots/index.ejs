@@ -18,11 +18,11 @@
                 display: flex;
                 justify-content: center;
                 margin: 0;
-                /* as in the website */
             }
 
             article {
                 padding: 0 20px;
+                /* As it will be on the website */
             }
 
             main {
@@ -65,7 +65,14 @@
     <body>
         <article>
             <main>
-                <h1>Title</h1>
+                <h1>
+                    <%= htmlWebpackPlugin.options.name %>
+                </h1>
+                <!--
+
+                    ADD PLOTS HERE:
+
+                -->
                 <div id="census-cbgs2020"></div>
             </main>
             <hr />
