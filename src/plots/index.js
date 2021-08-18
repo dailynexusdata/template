@@ -9,7 +9,9 @@ import * as d3 from 'd3';
 // import other files here
 
 (async () => {
-  const resize = () => {};
+  const resize = () => {
+
+  };
 
   window.addEventListener('resize', () => {
     resize();
