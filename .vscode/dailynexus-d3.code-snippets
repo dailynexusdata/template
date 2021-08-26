@@ -289,16 +289,16 @@
 		"description": "D3 Size Object"
 	},
 	"text": {
-		"prefix": "text",
+		"prefix": " text",
 		"body": [
 			".append('text')",
-			"  .text((d) => ${1:d})",
-			"  .attr('x', $2)",
-			"  .attr('y', $3)",
-			"  ${4:.attr('fill', '#{5:d3d3d3}')}",
-			"  ${6:.style('font-size', '$7')}",
-			"  ${8:.attr('text-anchor', '${9:end}')}",
-			"  ${10:.attr('alignment-baseline', '${11:hanging}')};",
+			"  .text(${1:(d) => ${2:d}})",
+			"  .attr('x', $3)",
+			"  .attr('y', $4)",
+			"  ${5:.attr('fill', '#${6:d3d3d3}')}",
+			"  ${7:.style('font-size', '$8')}",
+			"  ${9:.attr('text-anchor', '${10:end}')}",
+			"  ${11:.attr('alignment-baseline', '${12:hanging}');}",
 			"",
 			"$0"
 		],
@@ -321,7 +321,7 @@
 		"description": ""
 	},
 	"circle": {
-		"prefix": "circle",
+		"prefix": " circle",
 		"body": [
 			".append('circle')",
 			"  .attr('cx', $1)",
@@ -334,7 +334,7 @@
 		"description": ""
 	},
 	"rect": {
-		"prefix": "rect",
+		"prefix": " rect",
 		"body": [
 			".append('rect')",
 			"  .attr('x', $1)",

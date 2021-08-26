@@ -3,5 +3,8 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    }
 }

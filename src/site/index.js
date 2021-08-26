@@ -4,14 +4,13 @@
  * @since
  */
 import './styles.scss';
-import * as d3 from 'd3';
+
+import { csv, json } from 'd3-fetch';
 
 // import other files here
 
 (async () => {
-  const resize = () => {
-
-  };
+  const resize = () => {};
 
   window.addEventListener('resize', () => {
     resize();
