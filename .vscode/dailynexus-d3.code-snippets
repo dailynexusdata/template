@@ -152,7 +152,7 @@
 			"  */",
 			"",
 			"  // The class is necessary to apply styling",
-			"  const container = select('#${5:div-id}').attr('class', 'MY_CLASS');",
+			"  const container = select('#MY_CLASS-${5:div-id}').attr('class', 'MY_CLASS');",
 			"",
 			"  // When the resize event is called, reset the plot",
 			"  container.selectAll('*').remove();",
