@@ -4,7 +4,7 @@ module.exports = {
     browser: true,
   },
   rules: {
-    'linebreak-style': 0,
+    'linebreak-style': ['error', 'windows'],
     'implicit-arrow-linebreak': ['error', 'beside'],
     'arrow-body-style': ['error', 'as-needed'],
     'brace-style': ['error', 'stroustrup'],
