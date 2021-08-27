@@ -1,13 +1,13 @@
 {
-  "name": "template",
+  "name": "PACKAGE_NAME",
   "version": "1.0.0",
-  "description": "Daily Nexus D3 Template",
+  "description": "Built From Daily Nexus D3 Template -- npm init @dailynexus/starter",
   "scripts": {
     "start": "webpack --watch --mode development",
     "build": "webpack --mode production",
     "doc": "jsdoc -r src/plots"
   },
-  "author": "github/alrudolph",
+  "author": "AUTHOR_NAME",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.2.0",
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "d3-axis": "^3.0.0",
+    "d3-collection": "^1.0.7",
     "d3-fetch": "^3.0.1",
     "d3-scale": "^4.0.0",
     "d3-selection": "^3.0.0",

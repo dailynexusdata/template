@@ -155,7 +155,7 @@
 			"  */",
 			"",
 			"  // The class is necessary to apply styling",
-			"  const container = d3.select('#${5:div-id}').attr('class', 'myclass');",
+			"  const container = d3.select('#${5:div-id}').attr('class', 'MY_CLASS');",
 			"",
 			"  // When the resize event is called, reset the plot",
 			"  container.selectAll('*').remove();",

@@ -1,16 +1,22 @@
 /**
- * @file
- * @author
- * @since
+ * @author AUTHOR_NAME
+ * @since DATE
  */
 import './styles.scss';
 
 import { csv, json } from 'd3-fetch';
 
-// import other files here
+// import plot functions here:
+// import makePLOT_NAME from "./PLOT_NAME";
 
 (async () => {
-  const resize = () => {};
+  // import data - use csv or json:
+  // const data = await csv('file path or url');
+
+  const resize = () => {
+    // call imported plots here:
+    // makePLOT_NAME(data);
+  };
 
   window.addEventListener('resize', () => {
     resize();
