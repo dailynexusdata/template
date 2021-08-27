@@ -21,4 +21,12 @@
     color: black;
     text-decoration: none;
   }
+  
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  svg {
+    align-self: center;
+  }
 }
