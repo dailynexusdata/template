@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const config = {
   entry: './src/site/index.js',
   output: {
-    filename: `${PROJ_NAME}-bundle.js`,
+    filename: 'PROJ_NAME-bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
