@@ -1,16 +1,15 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-require('dotenv').config();
 
 const config = {
   entry: './src/site/index.js',
   output: {
-    filename: `${process.env.NAME}-bundle.js`,
+    filename: `${PROJ_NAME}-bundle.js`,
     path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
     new HtmlWebpackPlugin({
-      name: process.env.NAME,
+      name: PROJ_NAME,
       filename: '../index.html',
       template: 'src/site/index.ejs',
     }),
@@ -25,6 +24,4 @@ const config = {
   },
 };
 
-module.exports = () => {
-  return config;
-};
+module.exports = () => config;
