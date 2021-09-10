@@ -9,7 +9,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      name: PROJ_NAME,
+      name: 'PROJ_NAME',
       filename: '../index.html',
       template: 'src/site/index.ejs',
     }),

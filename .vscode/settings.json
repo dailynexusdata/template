@@ -6,5 +6,8 @@
     "[javascript]": {
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    },
+    "files.watcherExclude": {
+        "**/target": true
     }
 }
