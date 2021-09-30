@@ -9,7 +9,7 @@ import { csv, json } from 'd3-fetch';
 // import plot functions here:
 // import makePLOT_NAME from "./PLOT_NAME";
 
-(async () => {
+const main = async () => {
   // import data - use csv or json:
   // const data = await csv('file path or url');
 
@@ -23,4 +23,8 @@ import { csv, json } from 'd3-fetch';
   });
 
   resize();
-})();
+};
+
+main().catch((err) => {
+  console.error(err);
+});
